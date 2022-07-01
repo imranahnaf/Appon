@@ -1,0 +1,35 @@
+/* =====***** common css starts *****===== */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@import "_variable.scss";
+
+/* =====***** common css ends *****===== */
+
+.navbar .navbar-nav .nav-item .nav-link a {
+  color: $heading_color;
+}
+
+/* =====***** preloader css starts *****===== */
+
+/* =====***** preloader css ends *****===== */
+
+/* =====***** navbar css starts *****===== */
+/* =====***** navbar css ends *****===== */
