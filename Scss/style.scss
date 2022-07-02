@@ -17,14 +17,30 @@ img {
   vertical-align: center;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 @import "_variable.scss";
 
+/* =====***** preloader css starts *****===== */
+#preloader-bg {
+  width: 100%;
+  height: 110vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* =====***** preloader css ends *****===== */
+
 /* =====***** common css ends *****===== */
 
 .navbar .navbar-nav .nav-item .nav-link a {
-  color: $heading_color;
+  color: $heading_color !important;
 }
 
 /* =====***** preloader css starts *****===== */
